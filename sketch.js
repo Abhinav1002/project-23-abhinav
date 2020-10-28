@@ -28,15 +28,15 @@ function setup() {
 	groundSprite=createSprite(width/2, height-35, width,10);
 	groundSprite.shapeColor=color(255)
 
-	box1 = createSprite(400,650,100,10);
+	box1 = createSprite(400,665,100,15);
 	box1.shapeColor= "red" ;
 	fill("red");
 
-	box2 = createSprite(450,605,10,100);
+	box2 = createSprite(450,620,15,100);
 	box2.shapeColor= "red" ;
 	fill("red");
 
-	box3 = createSprite(350,605,10,100);
+	box3 = createSprite(350,620,15,100);
 	box3.shapeColor= "red" ;
 	fill("red");
 
